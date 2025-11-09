@@ -1,5 +1,8 @@
 # Plurk 黑名單功能加強外掛（Chrome Extension）
 
+<img width="2992" height="1969" alt="" src="https://github.com/user-attachments/assets/45ed049e-7eab-4e26-b65d-d79ccd32a0ad" />
+
+
 目前噗浪的內建黑名單功能，只能讓你在自己的河道上看不到黑單帳號的主動發文。
 當黑單帳號參與他人噗文時，你仍會看到該帳號的名稱與相關對話，影響精神衛生。
 
