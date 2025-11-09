@@ -1,0 +1,33 @@
+# Chrome Extension Build
+dist/
+*.zip
+
+# Icons (generated)
+icons/*.png
+!icons/README.txt
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Node (if needed in future)
+node_modules/
+package-lock.json
+

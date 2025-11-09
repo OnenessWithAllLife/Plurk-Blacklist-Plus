@@ -1,0 +1,65 @@
+/* Popup Page Styles - Popup 頁面專屬樣式 */
+
+/* Popup 專屬的 body 設定 */
+body {
+  width: 300px;
+  padding: 20px;
+}
+
+/* Header 區域 */
+.header {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.status {
+  font-size: 12px;
+  color: #666;
+}
+
+/* Switch 容器（popup 專屬樣式） */
+.switch-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.switch-label {
+  font-weight: 500;
+  color: #333;
+  font-size: 14px;
+}
+
+/* Actions 區域 */
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Popup 專屬的按鈕預設樣式 */
+button {
+  background: white;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+button:hover {
+  background: #f9f9f9;
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+

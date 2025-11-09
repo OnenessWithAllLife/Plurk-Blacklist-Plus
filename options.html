@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plurk 黑名單設定</title>
+  <link rel="stylesheet" href="common/common.css">
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <h1>Plurk 黑名單設定</h1>
+  <p class="description">管理您想要自動隱藏的噗浪帳號。輸入帳號名稱時不需要包含 @ 符號。</p>
+  
+  <div id="message" class="message"></div>
+  
+  <div class="section">
+    <h2 class="section-title">黑名單管理</h2>
+    <div class="input-group">
+      <input type="text" id="usernameInput" placeholder="輸入帳號名稱（例如：manjōmemakkari，無須 @ 符號）" />
+      <button class="btn-primary" id="addBtn">新增</button>
+    </div>
+    <ul class="blacklist-list" id="blacklistList">
+      <li class="empty-state">目前沒有黑名單帳號</li>
+    </ul>
+  </div>
+  
+  <div class="section">
+    <h2 class="section-title">進階設定</h2>
+    
+    <div class="switch-group">
+      <div class="switch-label">
+        <div class="switch-title">簡易隱藏模式</div>
+        <div class="switch-desc">啟用後會使用包含式比對，可能會有誤判風險。如：manjōmemakkari 會被隱藏，但 manjōmemakkarittenani 不會被隱藏。</div>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="fuzzyEnabled">
+        <span class="slider"></span>
+      </label>
+    </div>
+    
+    <div class="switch-group">
+      <div class="switch-label">
+        <div class="switch-title">過載時自動停用</div>
+        <div class="switch-desc">當處理時間過久時自動停用外掛，確保噗浪能正常運作</div>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="watchdogAutoDisable">
+        <span class="slider"></span>
+      </label>
+    </div>
+  </div>
+  
+  <script src="common/config.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>
+
