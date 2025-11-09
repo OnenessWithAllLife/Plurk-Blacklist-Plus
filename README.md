@@ -2,6 +2,7 @@
 
 <img width="2992" height="1969" alt="" src="https://github.com/user-attachments/assets/45ed049e-7eab-4e26-b65d-d79ccd32a0ad" />
 
+  
 
 目前噗浪的內建黑名單功能，只能讓你在自己的河道上看不到黑單帳號的主動發文。
 當黑單帳號參與他人噗文時，你仍會看到該帳號的名稱與相關對話，影響精神衛生。
@@ -29,7 +30,7 @@ A：這個是 Chrome Extension，不支援手機版 App 或手機瀏覽器。我
 
 ## 安裝方式
 
-有兩個方式可以選擇。
+使用 `git clone` 或是點 `Code` → `Download ZIP`，把外掛整個資料夾下載回去後，可以從下列安裝方式擇一。
 
 ### 1. 以開發模式直接使用外掛
 
